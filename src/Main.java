@@ -52,7 +52,11 @@ public void main() {
             System.out.println("Год был не високосным!");
         }
     System.out.println("Ваш возраст: "+DateUtils.yearsOld(dayOfBirth,monthOfBirth,yearOfBirth));  //Напишите функцию, которая определяет сколько сейчас лет пользователю;
+
+    StarDigits.printDateInStars(dayOfBirth, monthOfBirth, yearOfBirth);
+
 }
+
 
 
 
